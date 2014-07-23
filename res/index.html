@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>图片瀑布流示例</title>
+    <link href="css/main.css" rel="stylesheet"/>
+</head>
+<body>
+  <div id="container">
+    <div id="waterfall">
+      <div class="item"><a href="./detail.html"><img src="img/01.jpg"></a></div>
+      <div class="item"><a href="./detail.html"><img src="img/02.jpg"></a></div>
+      <div class="item"><a href="./detail.html"><img src="img/03.jpg"></a></div>
+      <div class="item"><a href="./detail.html"><img src="img/04.jpg"></a></div>
+      <div class="item"><a href="./detail.html"><img src="img/05.jpg"></a></div>
+      <div class="item"><a href="./detail.html"><img src="img/06.jpg"></a></div>
+      <div class="item"><a href="./detail.html"><img src="img/07.jpg"></a></div>
+      <div class="item"><a href="./detail.html"><img src="img/08.jpg"></a></div>
+      <div class="item"><a href="./detail.html"><img src="img/09.jpg"></a></div>
+      <div class="item"><a href="./detail.html"><img src="img/10.jpg"></a></div>
+    </div>
+    <div class="loading">
+      <img src="./loading.gif"><span>正在加载...</span>
+    </div>
+  </div>
+  <div id="navigation">
+    <!-- <a href="page.html?page=1"></a> -->
+    <a href="/r/api/getJson?page=1"></a>
+  </div>
+  <script src="js/lib/jquery-1.7.1.js" type="text/javascript"></script>
+  <script src="js/lib/jquery.masonry.min.js" type="text/javascript"></script>
+  <script src="js/lib/imagesloaded.pkgd.min.js" type="text/javascript"></script>
+  <script src="js/lib/jquery.infinitescroll.min.js" type="text/javascript"></script>
+  <script src="js/main.js" type="text/javascript"></script>
+</body>
+</html>

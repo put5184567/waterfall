@@ -1,0 +1,12 @@
+{
+  "name": "waterfall",
+  "main": "",
+  "version": "0.0.1",
+  "description": "图片瀑布流",
+  "author": "陈明武 <put5184567@gmail.com>",
+  "dependencies": {
+    "connect": "*",
+    "node-static": "*",
+    "node-cube": "*"
+  }
+}

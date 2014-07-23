@@ -1,0 +1,9 @@
+.item {
+  margin-right: 10px; 
+  float: left; 
+  cursor: pointer;
+}
+#container{
+  margin: 0 auto;
+  text-align: center;
+}
