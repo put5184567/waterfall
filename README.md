@@ -3,8 +3,10 @@
 ## introduce
 
 ```
+  囧，mac用户稍微测试了下IE10和chrome没问题，其它的浏览器应该问题不大
+
   前端：
-    比较简单，直接基于masonry和infinitescoll实现，图片加载参用base64
+    比较简单，直接基于masonry和infinitescoll实现，图片加载参用base64，总共就10张，每次循环随机渲染
   服务：
     基于connect模式的node静态服务，需要配置node环境，建议在linux下启动
 
